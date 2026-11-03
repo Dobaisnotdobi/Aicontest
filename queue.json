@@ -1,0 +1,38 @@
+[
+  {
+    "title": "[09.14~11.08] 🎨 행정공제회 생성형 AI 콘텐츠 공모전",
+    "period": "2026.09.14 10:00~11.08 23:59",
+    "body": "대한지방행정공제회 회원을 대상으로 생성형 AI 영상·이미지를 공모합니다. 네이버폼을 작성한 뒤 작품을 poba_contest@davincicom.co.kr로 제출하세요. 공식 공고에서 분야별 포스터를 확인할 수 있습니다.",
+    "official_url": "https://www.poba.or.kr/bbs/selectNttDetail?sechBbsSeq=10&sechBbstSeq=97367",
+    "id": "2026-poba",
+    "cutoff": "2026-11-08T23:59:00+09:00",
+    "poster": "posters/poba.jpg"
+  },
+  {
+    "title": "[10.15~11.11] 🏛️ 공공 AI 대전환 챌린지",
+    "period": "2026.10.15~11.11",
+    "body": "행정안전부가 행정업무와 대국민 서비스를 개선할 AI 도구를 모집합니다. 중앙·지방정부 공무원과 공공기관 직원이 참가할 수 있습니다. 독자 AI 에이전트 부문은 중앙·지방정부 공무원 대상입니다. 예선 작품을 11월 11일까지 제출하세요. 참가 안내서와 포스터는 공식 공고에 첨부돼 있습니다.",
+    "official_url": "https://mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=130237",
+    "id": "2026-mois",
+    "cutoff": "2026-11-11T00:00:00+09:00",
+    "poster": "posters/mois.jpg"
+  },
+  {
+    "title": "[10.01~11.12] 🤖 국부펀드 KIC, AI 에이전트 공모전",
+    "period": "2026.10.01~11.12 오전 10시",
+    "body": "한국투자공사가 투자·금융 업무에 활용할 AI 에이전트를 공모합니다. 누구나 개인 또는 최대 5인 팀으로 참가할 수 있으며 만 14세 미만은 사전 문의가 필요합니다. 예선에서는 지정 양식으로 작성한 10쪽 이내 PDF 기획서를 제출합니다. 본선 진출팀은 시제품을 구현합니다. 총상금은 1,500만 원입니다.",
+    "official_url": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
+    "id": "2026-kic",
+    "cutoff": "2026-11-12T10:00:00+09:00",
+    "poster": "posters/kic.jpg"
+  },
+  {
+    "title": "[10.21~11.20] 💡 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
+    "period": "2026.10.21~11.20",
+    "body": "한국사회보장정보원과 대구가톨릭대학교가 사회보장 데이터와 AI를 활용한 복지 서비스·민원 개선 및 연구 아이디어를 모집합니다. 대한민국 국민 누구나 개인 또는 팀으로 참가할 수 있습니다. 팀원 수 제한은 없고 개인·팀당 1건만 응모할 수 있습니다. 대회 홈페이지에서 양식과 접수 방법을 확인하세요. https://wma.co.kr/ax",
+    "official_url": "https://www.ssis.or.kr/lay1/bbs/S1T67C95/A/102/view.do?article_seq=130246",
+    "id": "2026-ssis",
+    "cutoff": "2026-11-20T00:00:00+09:00",
+    "poster": "posters/ssis.jpg"
+  }
+]
