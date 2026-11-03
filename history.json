@@ -19,11 +19,16 @@
       "article_id": "4",
       "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/4",
       "posted": "2026-11-04T02:54:05.061065+09:00"
+    },
+    {
+      "id": "2026-mois",
+      "title": "[10.15~11.11] 🏛️ 공공 AI 대전환 챌린지",
+      "started": "2026-11-04T02:55:08.735501+09:00",
+      "official_url": "https://mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=130237",
+      "article_id": "5",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/5",
+      "posted": "2026-11-04T02:55:18.131391+09:00"
     }
   ],
-  "pending": {
-    "id": "2026-mois",
-    "title": "[10.15~11.11] 🏛️ 공공 AI 대전환 챌린지",
-    "started": "2026-11-04T02:55:08.735501+09:00"
-  }
+  "pending": null
 }
