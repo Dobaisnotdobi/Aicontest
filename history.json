@@ -28,11 +28,16 @@
       "article_id": "5",
       "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/5",
       "posted": "2026-11-04T02:55:18.131391+09:00"
+    },
+    {
+      "id": "2026-kic",
+      "title": "[10.01~11.12] 🤖 국부펀드 KIC, AI 에이전트 공모전",
+      "started": "2026-11-04T02:56:26.195680+09:00",
+      "official_url": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
+      "article_id": "6",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/6",
+      "posted": "2026-11-04T02:56:35.446551+09:00"
     }
   ],
-  "pending": {
-    "id": "2026-kic",
-    "title": "[10.01~11.12] 🤖 국부펀드 KIC, AI 에이전트 공모전",
-    "started": "2026-11-04T02:56:26.195680+09:00"
-  }
+  "pending": null
 }
