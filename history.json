@@ -46,11 +46,16 @@
       "article_id": "7",
       "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/7",
       "posted": "2026-11-04T02:57:49.856885+09:00"
+    },
+    {
+      "id": "2026-pps-ai-game-content",
+      "title": "[10.12~11.22] 🎮 조달청 AI 게임·콘텐츠 공모전",
+      "started": "2026-11-09T09:07:07.030876+09:00",
+      "official_url": "https://blog.naver.com/ppspr/224440256164",
+      "article_id": "22",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/22",
+      "posted": "2026-11-09T09:07:11.996440+09:00"
     }
   ],
-  "pending": {
-    "id": "2026-pps-ai-game-content",
-    "title": "[10.12~11.22] 🎮 조달청 AI 게임·콘텐츠 공모전",
-    "started": "2026-11-09T09:07:07.030876+09:00"
-  }
+  "pending": null
 }
