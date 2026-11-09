@@ -6,6 +6,7 @@ import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from naver_cafe import access_token, publish, transport
 
@@ -45,6 +46,20 @@ def board_titles():
         page += 1
 
 
+def load_poster(item):
+    if not item.get("poster_url"):
+        return ("poster.jpg", "image/jpeg", Path(item["poster"]).read_bytes())
+    parsed = urlsplit(item["poster_url"])
+    if parsed.scheme != "https" or parsed.hostname != "postfiles.pstatic.net" or parsed.username or parsed.password or parsed.port:
+        raise ValueError("Poster URL must be a reviewed official Naver blog image.")
+    data = transport(item["poster_url"], limit=6_000_000)
+    if data.startswith(b"\x89PNG\r\n\x1a\n"):
+        return ("poster.png", "image/png", data)
+    if data.startswith(b"\xff\xd8\xff"):
+        return ("poster.jpg", "image/jpeg", data)
+    raise ValueError("Poster is not a PNG or JPEG image.")
+
+
 def main():
     state = json.loads(load(HISTORY))
     if state.get("pending"):
@@ -62,7 +77,7 @@ def main():
         if any(key in title or title in key for title in board_titles() if title):
             continue
         draft = {"subject": item["title"], "content": "".join("<p>" + html.escape(item[field]) + "</p>" for field in ("period", "body", "official_url"))}
-        poster = ("poster.jpg", "image/jpeg", Path(item["poster"]).read_bytes())
+        poster = load_poster(item)
         state["pending"] = {"id": item["id"], "title": item["title"], "started": now.isoformat()}
         save(state)
         article = publish(draft, poster, token, BOARD)
