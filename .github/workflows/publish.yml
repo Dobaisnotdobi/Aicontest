@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/publish.yml'
+      - 'queue.json'
 permissions:
   contents: write
 concurrency:
