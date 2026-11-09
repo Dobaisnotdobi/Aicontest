@@ -53,9 +53,9 @@ def load_poster(item):
     if parsed.scheme != "https" or parsed.hostname != "postfiles.pstatic.net" or parsed.username or parsed.password or parsed.port:
         raise ValueError("Poster URL must be a reviewed official Naver blog image.")
     data = transport(item["poster_url"], limit=6_000_000)
-    if data.startswith(b"\x89PNG\r\n\x1a\n"):
+    if data.startswith(bytes.fromhex("89504e470d0a1a0a")):
         return ("poster.png", "image/png", data)
-    if data.startswith(b"\xff\xd8\xff"):
+    if data.startswith(bytes.fromhex("ffd8ff")):
         return ("poster.jpg", "image/jpeg", data)
     raise ValueError("Poster is not a PNG or JPEG image.")
 
