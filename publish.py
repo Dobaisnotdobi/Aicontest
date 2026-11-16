@@ -50,8 +50,8 @@ def load_poster(item):
     if not item.get("poster_url"):
         return ("poster.jpg", "image/jpeg", Path(item["poster"]).read_bytes())
     parsed = urlsplit(item["poster_url"])
-    if parsed.scheme != "https" or parsed.hostname != "postfiles.pstatic.net" or parsed.username or parsed.password or parsed.port:
-        raise ValueError("Poster URL must be a reviewed official Naver blog image.")
+    if parsed.scheme != "https" or parsed.hostname not in {"postfiles.pstatic.net", "ofjeju.kr", "www.kicet.re.kr"} or parsed.username or parsed.password or parsed.port:
+        raise ValueError("Poster URL must be from a reviewed official image host.")
     data = transport(item["poster_url"], limit=6_000_000)
     if data.startswith(bytes.fromhex("89504e470d0a1a0a")):
         return ("poster.png", "image/png", data)
