@@ -55,11 +55,16 @@
       "article_id": "22",
       "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/22",
       "posted": "2026-11-09T09:07:11.996440+09:00"
+    },
+    {
+      "id": "2026-jca-youth-ai-literacy",
+      "title": "[11.02~11.20] 🎬 제주 청소년 AI 리터러시 영상 공모전",
+      "started": "2026-11-16T09:05:13.469695+09:00",
+      "official_url": "https://ofjeju.kr/communication/notifications.htm?act=view&seq=2073863",
+      "article_id": "27",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/27",
+      "posted": "2026-11-16T09:05:19.841940+09:00"
     }
   ],
-  "pending": {
-    "id": "2026-jca-youth-ai-literacy",
-    "title": "[11.02~11.20] 🎬 제주 청소년 AI 리터러시 영상 공모전",
-    "started": "2026-11-16T09:05:13.469695+09:00"
-  }
+  "pending": null
 }
