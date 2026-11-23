@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-11-23",
+  "published_id": "2026-molit-smartcity-ai",
+  "deferred": [
+    {
+      "name": "제3회 매경 AI 광고 공모전",
+      "url": "https://aimk.ai/",
+      "reason": "공식 RIGHTS는 수상작 저작권 양도, FAQ는 제작자 귀속·1년 활용 및 다시 주최측 귀속을 병기해 상충. 권리 조건 확인 후 재검토.",
+      "source": "https://www.all-con.co.kr/view/contest/544259"
+    },
+    {
+      "name": "제2회 대한민국 AI 창조공모대전",
+      "url": "https://kocaa.co.kr/competition.dc",
+      "reason": "콘테스트코리아는 11/23~27 접수이나 주최사 공식 홈페이지는 접수 추후 공지·요강 준비 중으로 표시.",
+      "source": "https://www.contestkorea.com/sub/view.php?int_gbn=1&str_no=202610230020"
+    },
+    {
+      "name": "SVC Seoul AI 해커톤 with 현대건설",
+      "source": "https://www.all-con.co.kr/view/contest/544942",
+      "reason": "주최측 신청서가 로그인 필요 응답으로 공식 모집 상태 확인 보류."
+    },
+    {
+      "name": "한국화훼자조금협의회 30초 AI 영상 광고제",
+      "source": "https://www.contestkorea.com/sub/view.php?int_gbn=1&str_no=202611090007",
+      "reason": "주최사 공식 공고 본문 미확인. 포털 안내만으로 게시하지 않음."
+    }
+  ]
+}
