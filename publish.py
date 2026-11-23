@@ -48,7 +48,7 @@ def board_titles():
 
 def load_poster(item):
     if not item.get("poster_url"):
-        return ("poster.jpg", "image/jpeg", Path(item["poster"]).read_bytes())
+        return (Path(item["poster"]).name, "image/png" if item["poster"].endswith(".png") else "image/jpeg", Path(item["poster"]).read_bytes())
     parsed = urlsplit(item["poster_url"])
     if parsed.scheme != "https" or parsed.hostname not in {"postfiles.pstatic.net", "ofjeju.kr", "www.kicet.re.kr", "smartcity-ai.kr"} or parsed.username or parsed.password or parsed.port:
         raise ValueError("Poster URL must be from a reviewed official image host.")
@@ -90,3 +90,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
