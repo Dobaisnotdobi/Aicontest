@@ -73,11 +73,16 @@
       "article_id": "28",
       "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/28",
       "posted": "2026-11-16T09:06:27.367373+09:00"
+    },
+    {
+      "id": "2026-molit-smartcity-ai",
+      "title": "[11.16~12.14] 🏙️ 국가시범도시 AI 아이디어·기술 공모전",
+      "started": "2026-11-23T09:06:46.355497+09:00",
+      "official_url": "https://smartcity-ai.kr/notice",
+      "article_id": "38",
+      "url": "https://cafe.naver.com/f-e/cafes/31813012/articles/38",
+      "posted": "2026-11-23T09:06:52.003661+09:00"
     }
   ],
-  "pending": {
-    "id": "2026-molit-smartcity-ai",
-    "title": "[11.16~12.14] 🏙️ 국가시범도시 AI 아이디어·기술 공모전",
-    "started": "2026-11-23T09:06:46.355497+09:00"
-  }
+  "pending": null
 }
